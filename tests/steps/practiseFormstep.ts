@@ -11,7 +11,7 @@ When ("Enter input data", async({page})=>{
     await inpdata.enterlastname("itla")
     await inpdata.enteremail("xyz@rediffmail.com")
     await inpdata.radiobutton()
-    await inpdata.uploadpic1("C:/Users/sunit/Documents/23thOctTS/package.json")
+    await inpdata.uploadpic1("tests/steps/practiseFormstep.ts")
 //    await inpdata.entersubjects("Physics")
     await inpdata.entermobile('9899312485')
     await inpdata.entercurraddr('vizag')

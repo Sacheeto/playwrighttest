@@ -9,8 +9,5 @@ export class Loginpage{
         this.firstname=this.page.locator('[name="firstname"]')
         this.surname=this.page.locator('[name="lastname"]')
         this.birthday=this.page.locator('[name="birthday_day"]')
-        
-
     }
-
 }
